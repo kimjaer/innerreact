@@ -12,7 +12,7 @@ function App() {
   const sang = member ? 'login' : 'logout';
 
   return ( // return안에 식을 저장함으로 대입식 쓰면 안됨. 
-            // 외부 컴포넌트가 이 식을 받아서 저장해야해서 이 안의 대입식이 필요.
+            // 외부 컴포넌트가 이 식을 받아서 저장해야해서 이 안의 대입식이 필요.....
     <>
       <div className={sang} >
         {member ? 'login' : 'logout'}
